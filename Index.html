@@ -4,35 +4,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>Home - John Venters Portfolio</title>
+    <title>Home - Onila N. M. Don</title>
   </head>
-  <body>
-    <header>
-      <img
-        src="./images/jv-logo.svg"
-        alt="John Venters logo"
-        width="48"
-        height="48"
-      />
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <!-- Optional logo: replace src if you have it -->
+        <!-- <img src="./images/logo.svg" alt="Onila logo" width="48" height="48" /> -->
+        <span class="brand-name">Onila N. M. Don</span>
+      </a>
+
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="resume.html">Resume</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <h1>Home</h1>
+    <main class="container">
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Hi, I’m Onila.</h1>
+          <p class="subtitle">
+            Interdisciplinary MS student bridging biomedical engineering,
+            medical imaging, and machine learning.
+          </p>
 
-      <section>
-        <h2>Welcome</h2>
-        <p>
-          Welcome to my portfolio website. Here you can learn more about me and
-          view my resume.
-        </p>
+          <div class="cta-row">
+            <a class="button" href="resume.html">View Resume</a>
+            <a
+              class="button button-outline"
+              href="mailto:onilarasanjalanmd@gmail.com"
+              >Email Me</a
+            >
+          </div>
+
+          <ul class="quick-facts">
+            <li><strong>Location:</strong> Missoula, MT, USA</li>
+            <li>
+              <strong>Focus:</strong> MRI / fMRI / MRSI, computational
+              neuroscience
+            </li>
+            <li>
+              <strong>Tools:</strong> Python, Nilearn, scikit-learn, MATLAB
+            </li>
+          </ul>
+        </div>
+
+        <figure class="hero-photo">
+          <!-- Add your photo here -->
+          <img
+            src="./images/onila.jpg"
+            alt="Portrait of Onila N. M. Don"
+            width="320"
+            height="320"
+          />
+          <figcaption>Research • Neuroimaging • ML</figcaption>
+        </figure>
+      </section>
+
+      <section class="cards">
+        <article class="card">
+          <h2>Research Interests</h2>
+          <p>
+            Medical imaging (MRI, fMRI, MRSI), computational neuroscience,
+            network modeling, and machine learning applications in healthcare.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Currently</h2>
+          <p>
+            Research Assistant in Computational Cognitive Neuroscience at the
+            University of Montana, analyzing bilingual fMRI (Spanish–Basque)
+            with ICA/CanICA and network parcellations.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Leadership</h2>
+          <p>
+            President, International Student Association (University of
+            Montana).
+          </p>
+        </article>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Onila N. M. Don</p>
+    </footer>
   </body>
 </html>

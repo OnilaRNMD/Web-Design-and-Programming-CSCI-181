@@ -4,44 +4,298 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>Resume - John Venters Portfolio</title>
+    <title>Resume - Onila N. M. Don</title>
   </head>
 
   <body>
-    <header>
-      <img
-        src="./images/jv-logo.svg"
-        alt="John Venters logo"
-        width="48"
-        height="48"
-      />
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-name">Onila N. M. Don</span>
+      </a>
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="resume.html">Resume</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <h1>Resume</h1>
+    <main class="container">
+      <header class="resume-header">
+        <div>
+          <h1>Resume</h1>
+          <p class="subtitle">
+            Interdisciplinary MS student bridging Biomedical Engineering,
+            Medical Imaging, and Machine Learning
+          </p>
 
-      <!-- Education Section -->
+          <ul class="contact-list">
+            <li>
+              <a href="mailto:onilarasanjalanmd@gmail.com"
+                >onilarasanjalanmd@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="mailto:on233863@umconnect.umt.edu"
+                >on233863@umconnect.umt.edu</a
+              >
+            </li>
+            <li>Missoula, MT, USA</li>
+            <li>
+              <a href="https://www.linkedin.com/in/onila-rasanjala/"
+                >LinkedIn</a
+              >
+            </li>
+            <li>+1 406 849 8319</li>
+          </ul>
+        </div>
+
+        <img
+          class="resume-photo"
+          src="./images/onila.jpg"
+          alt="Portrait of Onila N. M. Don"
+          width="140"
+          height="140"
+        />
+      </header>
+
       <section>
         <h2>Education</h2>
+        <ul class="item-list">
+          <li>
+            <div class="item-top">
+              <strong>M.S., Computer Science</strong> — University of Montana
+              <span class="muted">(May 2025)</span>
+            </div>
+          </li>
+          <li>
+            <div class="item-top">
+              <strong>M.S., Biomedical Engineering & AI Convergence</strong> —
+              Chonnam National University
+            </div>
+            <p class="muted">
+              Thesis: Developing a New Imaging Contrast for Stroke using
+              Electrical Property Tomography (EPT). CGPA: 4.25/4.5
+            </p>
+          </li>
+          <li>
+            <div class="item-top">
+              <strong
+                >B.Eng., Electronic & Telecommunication Engineering</strong
+              >
+              — Hanoi University of Science and Technology
+            </div>
+            <p class="muted">
+              Thesis: Graphene Textile Sensor Characterization and EMG Circuit
+              Design
+            </p>
+          </li>
+        </ul>
+      </section>
 
-        <h3>
-          <strong>Professional Masters in Games Development</strong>, Abertay
-          University
-        </h3>
-        <p>September 2021 - September 2022</p>
-        <p><strong>Awards:</strong> Saltie Scholar</p>
-        <p>
-          <strong>Honors:</strong> Merit (3.71 GPA), US Equivalent:
-          <i>magna cum laude</i> (3.9 GPA)
-        </p>
+      <section>
+        <h2>Research Experience</h2>
+        <ul class="item-list">
+          <li>
+            <div class="item-top">
+              <strong
+                >Research Assistant, Computational Cognitive
+                Neuroscience</strong
+              >
+              — University of Montana
+              <span class="muted">Since Jan 2024 • Missoula, MT</span>
+            </div>
+            <ul>
+              <li>
+                Analyzing bilingual fMRI (Spanish–Basque) using ICA/CanICA and
+                Yeo-7 network parcellations.
+              </li>
+              <li>
+                Modeling temporal dynamics using HMMs, sliding-window functional
+                connectivity, and dwell-time measures.
+              </li>
+              <li>
+                Investigating proficiency effects and cross-language activation
+                patterns.
+              </li>
+              <li>
+                Implemented preprocessing + dimensionality reduction + network
+                similarity metrics (FSL / Nilearn).
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="item-top">
+              <strong
+                >Research Scientist, Image Processing & Machine Learning</strong
+              >
+              — Gwangju Institute of Science and Technology (GIST)
+              <span class="muted">Sep 2022 – Jul 2023 • South Korea</span>
+            </div>
+            <ul>
+              <li>Biomedical image registration and computational modeling.</li>
+              <li>
+                Applied ML to imaging and physics datasets to develop and
+                evaluate algorithms.
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="item-top">
+              <strong>Research Assistant, MRI & Spectroscopic Imaging</strong> —
+              Chonnam National University
+              <span class="muted">Aug 2020 – Aug 2022 • South Korea</span>
+            </div>
+            <ul>
+              <li>
+                Investigated Electrical Property Tomography (EPT) for ischemic
+                stroke characterization.
+              </li>
+              <li>
+                Optimized hyperpolarized Carbon-13 MRSI acquisition protocols.
+              </li>
+              <li>
+                Conducted animal studies (mice/rats), metabolic imaging, and
+                organ comparisons.
+              </li>
+              <li>
+                Used MATLAB, SPSS, SIVIC, and EXPRESS 2.0 for quantitative image
+                analytics.
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="item-top">
+              <strong
+                >Undergraduate Researcher — Biomedical Circuits & EMG
+                Sensors</strong
+              >
+              — Hanoi University of Science and Technology
+              <span class="muted">May 2018 – Jun 2019 • Vietnam</span>
+            </div>
+            <ul>
+              <li>
+                Designed EMG acquisition circuitry and characterized graphene
+                textile sensors.
+              </li>
+              <li>
+                Led weekly project meetings with international collaborators.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Publications</h2>
+        <ul class="item-list">
+          <li>
+            Optimization of scan parameters for in vivo hyperpolarized Carbon-13
+            MRSI (Investigative Magnetic Resonance Imaging, 2022).
+          </li>
+          <li>
+            Application of Electric Properties Tomography to Ischemic Stroke:
+            Conductivity comparison (2022).
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Teaching Experience</h2>
+        <ul class="item-list">
+          <li>
+            Teaching Assistant — CS 361: Computer Architecture (Spring 2025)
+          </li>
+          <li>
+            Teaching Assistant — CS 332: Advanced Data Structures & Algorithms
+            (Fall 2024, Fall 2025)
+          </li>
+          <li>
+            Teaching Assistant — CS 252: Intermediate Data Structures &
+            Algorithms (Spring 2024)
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Technical Skills</h2>
+        <ul class="two-col">
+          <li>
+            <strong>Biomedical & Imaging:</strong> MRI/fMRI/MRSI, EPT, EEG/EMG,
+            ICA, connectivity, network parcellation
+          </li>
+          <li>
+            <strong>Programming:</strong> Python (Nilearn, NumPy, Pandas,
+            scikit-learn), MATLAB, SPSS
+          </li>
+          <li>
+            <strong>Tools:</strong> FreeSurfer, FSL, AFNI, ANSYS, SIVIC, EXPRESS
+            2.0
+          </li>
+          <li>
+            <strong>Other:</strong> 3T MRI operation, animal models (mice/rat
+            handling), MS Office
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Honors & Awards</h2>
+        <ul class="item-list">
+          <li>
+            Full-funded undergraduate scholarship — Sri Lankan Government
+            (Vietnam studies)
+          </li>
+          <li>
+            1st Place, Best Poster Presentation — ICMRI & KSMRM (2021, Korea)
+          </li>
+          <li>
+            Master’s scholarship — Chonnam National University, South Korea
+          </li>
+          <li>Selected Student Speaker — Graduation Ceremony (HUST, 2019)</li>
+          <li>
+            Interpreter (English ↔ Sinhala) — diplomatic event (Sri
+            Lanka–Vietnam)
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Leadership & Volunteering</h2>
+        <ul class="item-list">
+          <li>
+            President, International Student Association — University of Montana
+            (2025–Present)
+          </li>
+          <li>
+            Vice President, International Student Association — University of
+            Montana (2024–2025)
+          </li>
+          <li>
+            Cultural Educator, UNESCO CCAP Program — South Korea (2021–2023)
+          </li>
+          <li>Team Leader, Global Volunteer Day — Vietnam (2016–2018)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <ul class="item-list">
+          <li>English — Advanced</li>
+          <li>Sinhalese — Proficient</li>
+          <li>Korean — Intermediate</li>
+          <li>Vietnamese — Beginner</li>
+          <li>Tamil — Beginner</li>
+        </ul>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Onila N. M. Don</p>
+    </footer>
   </body>
 </html>
